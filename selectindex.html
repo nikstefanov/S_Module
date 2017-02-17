@@ -1,0 +1,13 @@
+<html>
+<body>
+	<select name="sel" id="sel" onchange="function1(this.selectedIndex)">
+		<option value='0'>No</option>
+		<option value='1'>Yes</option>
+	</select>	
+</body>
+<html>
+<script language="javascript"> 
+	function function1(index) {console.log(index);}
+	console.log(document.getElementById("sel").selectedIndex);
+	document.getElementById("sel").selectedIndex = 1;
+</script>

@@ -1,0 +1,80 @@
+.login{
+margin-left: auto;
+margin-right: auto;
+margin-top:5em;
+vertical-align:bottom;
+border-style: solid;
+border-color: white;
+border-width: 1px;
+padding:2em;
+
+}
+
+.login td{
+font-family:"Lucida Console", Monaco, monospace;
+font-size:large;
+padding:0.5em;
+}
+
+body{
+	background: #AAAAAA;/*#AAAAAA;#E9EFEF*/
+}
+
+.lang_link{
+font-family:"Lucida Console", Monaco, monospace;
+text-align:center;
+font-size:small;
+color:white;
+}
+.lang_link a{
+color:white;
+}
+
+.error{
+	margin-left: auto;
+	margin-right: auto;
+	color:white;
+	font-family:"Lucida Console", Monaco, monospace;
+	text-align:center;
+	font-size:large;
+	margin-top:6em;
+}
+
+.info{
+margin-left: auto;
+margin-right: auto;
+margin-top:4em;
+padding:2em;
+max-width:35em;
+	column-count:2;
+	-moz-column-count:2; /* Firefox */
+	-webkit-column-count:2; /* Safari and Chrome */
+/*
+	vertical-align:bottom;
+	border-style: solid;
+	border-color: white;
+	border-width: 1px;
+background-image: url("img/background.gif");
+background-repeat: repeat-x;*/
+background-color:white;
+}
+
+.info td{
+font-family:"Lucida Console", Monaco, monospace;
+/*font-size:large;*/
+padding:0.5em;
+}
+
+.info .col_0{
+	width:35%;
+	column-width:36%;
+	-moz-column-width:36%; /* Firefox */
+	-webkit-column-width:36%; /* Safari and Chrome */
+}
+
+.info .col_1{
+	width:65%;
+	column-width:64%;
+	-moz-column-width:64%; /* Firefox */
+	-webkit-column-width:64%; /* Safari and Chrome */
+}

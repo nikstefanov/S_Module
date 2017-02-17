@@ -1,0 +1,443 @@
+/* CSS Document */
+
+
+html, body, form, fieldset {
+    margin: 0;
+    padding: 0;
+}
+
+body{ 
+text-align: center;
+}
+/*print div*/
+@media print {
+#noprint {
+display:none;
+}
+#print {
+display:block !important;
+}
+}
+#wrap {
+width: 1150px;
+margin: 0 auto;
+margin-top: 20px;
+    border: 1px solid #666666;
+    box-shadow: 0 0 10px #666666;
+-moz-box-shadow: 0 0 10px #666666;
+-webkit-box-shadow: 0 0 10px #666666;
+position: relative;
+text-align: left;
+behavior: url(http://212.70.131.30/pcservice/PIE.htc);
+}
+
+#wrap1 {
+width: 1150px;
+margin: 0 auto;
+position: relative;
+text-align: left;
+border: 1px solid #666666;
+border-top-width: 0;
+    box-shadow: 0 0 10px #666666;
+-moz-box-shadow: 0 0 10px #666666;
+-webkit-box-shadow: 0 0 10px #666666;
+}
+
+.head_pp{
+	width: 100%;
+	float: none;
+	text-align: left;
+	background: #99CCFF;
+    letter-spacing: 2px;
+    text-shadow: 0 0 3px #FFFFFF;
+}
+.firm1{
+	
+	text-align: right;
+	background: transparent;
+}
+.body_pp{
+	width: 100%;
+	background: #99CCFF;
+	text-decoration: none;
+	font-size: 16px;
+}
+
+.pp_text{
+	
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.print_head{
+	width:100%;
+	
+}
+.prnt1{
+	width:100%;
+	float: left;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+}
+
+.prnt2{
+	float:left;
+	width:70%;
+	text-align:left;	
+	font-size: 16px;
+}
+.prnt3{
+	float:left;
+	width:25%;
+	text-align: center;
+	background: transparent;
+}
+.prnt4{
+	width:10%;
+	text-align: left;
+padding-left: 10px; /* ==promqna ==*/
+	float:left;
+}
+.prnt5{
+	width:60%;
+	padding-left:10px;
+}
+
+
+.prnt6{
+	width:100%;
+	float: left;
+	
+}
+.spacer{
+	width: 100%;	
+	height: 30px;
+	float: left;
+}
+
+.border{
+	width: 800px;
+	background:url(img/background.png) 0 0 repeat-y;
+	margin: auto; /* ==promqna ==*/
+	padding: auto; /* ==promqna ==*/
+	-webkit-print-color-adjust:exact;
+}
+
+
+.prnt2{
+font-size: 35px!important;
+letter-spacing: 2px;
+padding: 3px;
+margin-top:10px;
+margin-left:5px;
+text-align:left;
+/*text-shadow: 0 0 3px #fff;*/
+}
+
+.address{
+font-size: 13px!important;
+font-style: italic;
+float:left;
+text-align: left;
+margin-left: 5px;
+letter-spacing: 0!important;
+margin-top: 5px;
+padding-left:0.3em;
+}
+
+
+body {
+font-family: Trebuchet MS, Verdana;
+background: #ddd;
+}
+
+.prnt3 {
+    background: transparent!important;
+    float: right!important;
+    /*margin: 1ex 1ex 1ex 1ex;*/
+	margin: 7px;
+    padding: 5px;
+}
+
+.prnt31 {
+    background: transparent!important;
+    float: right!important;
+    margin: 1ex 2ex 2ex 1ex;
+	/*margin: 7px;
+    padding: 5px;*/
+}
+
+.h5 {
+margin: 0!important;
+}
+
+.border {
+    border-bottom: 1px solid;
+    border-left: 1px solid;
+    border-right: 1px solid;
+}
+table
+{
+border-collapse:collapse;
+}
+table,th, td
+{
+ /* border: 1px solid #FFFFFF;*/
+    font-size: 13px;
+    margin: 10px;
+    padding: 3px;
+    border: 1px solid #000000;
+    box-shadow: 0 0 10px #F8F8F8;
+-webkit-box-shadow: 0 0 10px #f8f8f8;
+-moz-box-shadow: 0 0 10px #f8f8f8;
+text-align: left;
+}
+
+input{
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #666;
+    font-size: 12px;
+    letter-spacing: 1px;
+    padding: 3px;
+}
+#content {
+/*height: 100%;*/
+background: #fff;
+width:800px;
+border-left: 1px solid;
+border-right: 1px solid;
+border-bottom: 1px solid;
+clear: both;
+margin: auto;
+}
+.content1 {
+padding: 10px;
+clear: both;
+text-align: center;
+}
+
+.header_ppi {
+font-size: 20px;
+letter-spacing: 2px;
+}
+
+.back {
+width: 70px;
+height: 70px;
+margin: auto;
+margin-top: 10px;
+display: block;
+border-style: none!important;
+}
+
+.back a {
+opacity: 0.5;
+zoom: 1;
+filter: alpha(opacity = 50);
+}
+.back a:active {
+}
+.back a:link {
+}
+.back a:hover {
+opacity: 1;
+zoom: 1;
+filter: alpha(opacity = 100);
+}
+
+.footer {
+    font-size: 11px;
+    font-style: italic;
+    margin: auto;
+    padding: 10px;
+    text-align: right;
+    width: 58%;
+}
+
+/*#new {
+}
+
+#new table, td, th {
+border: 0!important;
+box-shadow: none!important;
+}
+
+#new input {
+width: 200px;
+}
+
+#new textarea {
+width: 200px!important;
+}
+
+#new select {
+width: 200px!important;
+    border: 1px solid #666666;
+    height: 22px !important;
+}
+
+.tursene {
+    font-size: 20px;
+    letter-spacing: 2px;
+font-weight: bold;
+} 
+
+*/
+
+/*==== MENU =====*/
+
+.menu_item {
+padding-top:10px;
+padding-bottom:10px;
+float: right;
+}
+.menu_item a{
+color: #666;
+font-family: Verdana;
+letter-spacing: 2px;
+text-shadow: 0 0 1px #fff;
+text-transform: lowercase;
+padding: 10px;
+}
+.menu_item a:link{
+}
+.menu_item a:active{
+}
+.menu_item a:hover{
+color: #000;
+background: #fff;
+}
+.menu_h_pp{
+	width: 100%;
+	background: #F8F8F8;
+height: 41px;
+float: right;
+border-top: 1px solid #666;
+border-bottom: 1px solid #666;
+}
+.head_pp{
+height: 100px;
+}
+.firm {
+    display: block;
+    height: 50px;
+    margin: 10px;
+    position: absolute;
+    width: 50%;
+font-size:22px;
+font-weight: bold;
+padding:20px;
+}
+#user1{
+    width: 90%;
+    float: right;
+    text-align: right;
+    padding: 10px;
+}
+
+a {
+color: #666;
+text-decoration: none;
+}
+img
+{  
+border-style: none;
+}
+
+
+/*div settings 2*50%*/
+#settings_all{
+    width: 100%;
+    float: left;
+}
+#settings_u1{
+    width: 50%;
+    float: left;
+}
+#settings_u2{
+    width: 48%;
+    float: left;
+}
+
+#search_fil input{
+    width:100px;
+}
+#pager{
+    font-size: 12px;
+    color: #333399;
+    padding: 15px;
+    float: left;
+    width: 80%;
+    text-align: left;
+    display: inline;
+}
+#statistic{
+    width: 90%;
+    float: left;
+    
+    padding: 10px;
+}
+#stat_msg{
+    width: 55%;
+    float: left;
+    text-align: left;
+    padding-left: 10px;
+    
+    
+}
+#stat_tbl{
+    width: 40%;
+    float: left;
+    text-align: right;
+    
+    
+}
+.urgent_home{
+    width: 90%;
+    float: left;
+    padding: 10px;
+}
+.overdues{
+    /*width: 90%;*/
+    float: left;
+    padding: 10px;
+}
+.overdues0{
+	background: #FFFF88;
+}
+.overdues1{
+	background: #FF9900;
+}
+.overdues2{
+	background: #FF6677;
+}
+#empty_100{
+    width: 90%;
+}
+
+#help_1{
+    text-align: left !important;
+    padding: 10px;
+}
+
+#p_table td{
+	border-style:none;
+	border-width: 0px;
+	border-color:white;
+	text-align:left;
+	font-size:medium;
+	box-shadow: 0 0 0 #FFFFFF;
+	-webkit-box-shadow: 0 0 0 #FFFFFF;
+	-moz-box-shadow: 0 0 0 #FFFFFF;
+}
+#p_table {
+	border-style:none;
+	border-width: 0px;
+	border-color:white;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
